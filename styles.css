@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+body {
+    font-family: 'Playfair Display', Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    height: 100vh;
+}
+
+#main {
+    background-color: #C89580;
+    color: #4A1813;
+}
+
+a:link {
+    color: #F7E4DE;
+}
+
+a:visited {
+    color: #763329;
+}
+
+a:hover {
+    color: #000;
+}
+  
+
+/* Header */
+
+header {
+    background-color: #4A1813;
+    color: #F7E4DE;
+    font-family: 'Playfair Display', Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    padding: 1em;
+}
+
+header > p {
+    color: #E4AD9A;
+    font-size: 1.5em;
+    margin: 0;
+}
+
+#title {
+    font-size: 3em;
+    margin-bottom: 0;
+}
+
+#img-div {
+    border: 2px solid #813E25;
+    margin: 1em;
+}
+
+img {
+    margin: 0 auto;
+    display: block;
+}
+
+#image {
+    max-width: 100%;
+    height: auto;
+}
+
+#img-caption {
+    text-align: center;
+    font-size: 1.2em;
+    margin: 1em 0;
+    color: #813E25;
+    font-weight: 600;
+}
+
+/* Main */
+
+.main-content 
+{
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: space-between;
+    gap: 1em;
+    margin: 1em;
+    padding-bottom: 1em;
+}
+
+.quote, #tribute-info {
+    background-color: #4A1813;
+    color: #E4AD9A;
+}
+
+/* Additional Information */
+
+.tribute-additions {
+    width: 400px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 0.5em;
+}
+
+.quote {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    column-gap: 0;
+    flex-grow: 1;
+    margin: 0;
+    padding: 1em;
+}
+
+blockquote {
+    text-align: center;
+}
+
+blockquote p {
+    font-size: 1.5em;
+    padding-bottom: 0.5em;
+}
+
+cite a {
+    color: #F7E4DE;;
+}
+
+
+.additional-information {
+    border: 2px solid #4A1813;
+    padding: 1em;
+    text-align: center;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.additional-information h3 {
+    font-size: 1.3em;
+    padding-bottom: 0.5em;
+}
+
+/* Main Information */
+
+#tribute-info {
+    font-family: 'Raleway', Arial, Helvetica, sans-serif;
+    width: 600px;
+    padding: 1em;
+    flex-grow: 2;
+}
+
+#tribute-info h3 {
+    color: #F7E4DE;
+    font-size: 1.3em;
+    padding-bottom: 1em;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    padding-bottom: 1em;
+}
+
+.date {
+    font-weight: 700;
+}
+
